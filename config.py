@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7483041058:AAHjfuhaTuoyzJv9awprkxjThaI6srMzsvE")
 
 APP_ID = int(os.environ.get("APP_ID", "23862583"))
 
@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "23862583"))
 API_HASH = os.environ.get("API_HASH", "cdb6288563a205ce92ec35bd2a7fd31e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001707804911"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1994781564"))
@@ -31,7 +31,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.shareus.io")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/TamilLinksOfficial/157")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
